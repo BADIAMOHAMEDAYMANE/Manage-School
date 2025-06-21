@@ -1,11 +1,6 @@
 <?php
-
-namespace classes;
-include("../config/database.php");
-
-class Student
-{
-
+require_once "config/database.php";
+class Student {
     private $conn;
     private $table_name = "etudiants";
 
@@ -31,5 +26,5 @@ class Student
         $stmt->execute();
         return $stmt;
     }
-
 }
+?>

@@ -239,7 +239,7 @@
         </div>
         <ul class="nav-links">
             <li><a href="#" onclick="showSection('home')">Accueil</a></li>
-            <li><a href="#" onclick="showSection('professeurs')">Professeurs</a></li>
+            <li><a href="Professormainpage.php" onclick="showSection('professeurs')">Professeurs</a></li>
             <li><a href="#" onclick="showSection('etudiants')">Étudiants</a></li>
             <li><a href="#" onclick="showSection('classes')">Classes</a></li>
         </ul>
